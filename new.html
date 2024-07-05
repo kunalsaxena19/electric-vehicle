@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLA Experience Center</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #e82a2a;
+            background-image: url(./mage/uiui.png);
+        }
+        .container {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+            
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0069d9;
+        }
+        .small-text {
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">OLA Experience Center</h2>
+        <p class="text-center mb-4">Your go-to for test rides, details on finance options, service and more.</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">+91</span>
+                    </div>
+                    <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="date">Date of Visit</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <div class="form-group">
+                <label for="pincode">Pincode</label>
+                <input type="text" class="form-control" id="pincode" placeholder="Enter your pincode">
+            </div>
+            <div class="form-group">
+                <label for="purchase">When would you like to make the purchase?</label>
+                <input type="text" class="form-control" id="purchase" placeholder="Enter your preference">
+            </div>
+            <div class="form-group">
+                <label for="center">Select the preferred experience center</label>
+                <select class="form-control" id="center">
+                    <option value="">Select an option</option>
+                    <option value="center1">Center 1</option>
+                    <option value="center2">Center 2</option>
+                </select>
+            </div>
+            
+            <link rel="stylesheet" href="index.html"><button type="submit" class="btn btn-primary btn-block">Confirm Booking</button>
+        </form>
+        <p class="small-text text-center mt-3">By choosing to confirm, you consent to share your Ola TR & Purchase status with our Brand Champion and to receive calls with regard to your booked Experience Center visit.</p>
+    </div>
+</body>
+</html>

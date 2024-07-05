@@ -1,0 +1,99 @@
+.AB{
+    width: 100%;
+}
+ 
+    .olp2 {
+
+    
+max-width: 1000px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 5%;
+margin-right: 15%;
+
+}
+.card {
+background-color: white;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+width: 30%;
+margin: 10px;
+padding: 20px;
+text-align: center;
+margin-right: 10px;
+}
+.card h3 {
+font-size: 18px;;
+margin-bottom: 10px;
+}
+.card p {
+font-size: 15px;
+color: #555;
+margin-bottom: 20px;
+}
+.card button {
+background-color: #000;
+color: white;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 13px;
+}
+.card button:hover {
+background-color: #090909;
+}
+.footer {
+          background-color: #000;
+          color: #f3f0f0;
+          padding: 40px 20px;
+      }
+      .jj {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          max-width: 1200px;
+          margin: auto;
+      }
+      .column {
+          flex: 1;
+          min-width: 200px;
+          margin: 10px;
+      }
+      .column h3 {
+          font-size: 16px;
+          border-bottom: 1px solid #444;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+      }
+      .column ul {
+          list-style: none;
+          padding: 0;
+      }
+      .column ul li {
+          margin-bottom: 8px;
+      }
+      .column ul li a {
+          color: #fff;
+          text-decoration: none;
+      }
+      .column ul li a:hover {
+          text-decoration: underline;
+      }
+      .social-icons {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+      }
+      .social-icons a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 10px;
+          font-size: 20px;
+      }
+      .social-icons a:hover {
+          color: #ccc;
+      }
